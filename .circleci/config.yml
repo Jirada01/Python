@@ -1,0 +1,11 @@
+import sqlite3
+conn = sqlite3.connect(r"D:\Jirada_Python\example3.db")
+c = conn.cursor()
+c.execute('''CREATE TABLE user( id integer PRIMARY KEY AUTOINCREMENT,
+    ชื่อนามสกุล varchar(30) NOT NULL,
+    อีเมลล์ varchar(100) NOT NULL,
+    เพศ varchar(10) NOT NULL,
+    อายุ varchar(10) NOT NULL,
+    ชั้นปีที่ varchar(10) NOT NULL)''')
+conn.commit()
+conn.close()
