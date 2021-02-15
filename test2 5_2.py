@@ -1,11 +1,15 @@
+list_name = [มาม่า,ลาบ,ส้มตำ,ข้าวแกง]
+list_price = [12,60,40,25]
 class shoplist :
-    def __init__(self,show_products,add_products,out):
-        self.show_products = show_products
-        self.add_products = add_products
-        self.out = out
-    def show_shoplist (self):
-        print ("แสดงรายการสินค้า [a]\n",self.show_products,"เพิ่มรายการสินค้า [s] \n",self.add_products,"ออกจากระบบ [x]\n".self.out)
+    def show_shoplist (self): 
+        print ("แสดงรายการสินค้า [a]\n","เพิ่มรายการสินค้า [s] \n","ออกจากระบบ [x]\n")
+    def show() :
+        for x in range(0,len(list_name)) :
+
+    def input_list() :
+        
+        
 
 
-x = show_shoplist(self.show_products,self.add_products,self.out)
+x = shoplist()
 x.show_shoplist()
